@@ -1,0 +1,59 @@
+# project layer performance evaluation
+# V2 - OOP programming
+# March, 21
+
+
+This app has the main objectives to analyse which genetic has the best performance
+ and cost benefit under different market conditions.
+
+- It has one database with all provided zootechnical performance from the genetics (excel file)
+- other file with the setup parameters (egg prices, feed prices, etc)
+
+- Based on the input data, this app will calculated the cost / earnings / profit / ROI.
+
+     - Inputs:
+
+        - read database with genetic info (excel file)
+        - read setup variables from a file
+                -feed cost (random)
+                - feed addictive cost
+                - egg price (white & brown) (Random)
+
+
+
+     zootecnical parameters to be considered:
+
+        - acc egg mass production / week  (random)
+        - acc feed consumption / week
+        - acc mortality rate / week (Random)
+
+
+     Segments:
+        - costs segments:
+            -pullet cost:
+            -feed cost
+            -feed additive cost
+            -sanitary cost (vets, etc)
+
+
+        earnings segments
+            - egg sales
+
+
+
+     Processing;
+
+        - read database and variables
+        - generate n random numbers based on a specific distribution (Triangular, Uniform, etc)
+        - calculate cost / earnings and profit
+
+
+     Display:
+        - table on screen and external file with:
+                - header
+                - table
+
+        - plot a chat as png file with cost
+
+
+
